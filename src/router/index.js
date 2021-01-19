@@ -23,7 +23,7 @@ const routes = [
       {
         path: '/calendar',
         name: 'calendar',
-        component: () => import(/* webpackChunkName: "demo" */ '../pages/Calendar.vue')
+        component: () => import(/* webpackChunkName: "demo" */ '../pages/calendar/index.vue')
       },
       {
         path: '/workouts',
